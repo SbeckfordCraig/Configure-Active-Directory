@@ -80,3 +80,68 @@ This guide outlines the steps to deploy a Domain Controller (Windows Server 2022
 - Log into DC-01 via **Remote Desktop**.  
 - Open **Windows Defender Firewall with Advanced Security**.  
 - Enable **ICMPv4 TCP Protocols** by modifying the "Protocols" section.
+
+---
+
+### 2. Install and Configure Active Directory  
+- Install Active Directory Domain Services on DC-1.  
+- Create a new forest and domain.  
+- Restart the machine (automatically triggered by the installation).  
+
+  
+![Add Forest](https://imgur.com/39rEkhJ.png)  
+
+- Log back into DC-1 using the new domain and username.  
+- Set up **Organizational Units (OUs)** and create users.  
+
+---
+
+### 3. Assign Administrator Properties to a User  
+- Select a user in Active Directory.  
+- Right-click → Properties → Member tab.  
+- Add the user to the **Domain Admins** group by typing "domain admins" and clicking **Check Names**.  
+
+  
+![Add User Role](https://imgur.com/kzGVLjr.png)  
+
+---
+
+### 4. Update DNS Settings for Client-1  
+- Change the DNS settings of Client-1 to the **private IP address of DC-1** in Azure.  
+- Verify connectivity between Client-1 and DC-1.  
+- Confirm that Client-1 is listed in the "Computers" container of Active Directory.  
+
+ 
+![Change DNS Settings](https://imgur.com/G8LMrqB.png)  
+![Verify Connectivity](https://imgur.com/lQCfRDf.png)  
+
+---
+
+### 5. Enable Domain Users for Remote Desktop Access  
+- Log into Client-1 with the admin user.  
+- Allow **Domain Users** access to remote desktop via **System Properties**.  
+
+ 
+![Allow Users Access](https://imgur.com/TmSDbUU.png)  
+
+---
+
+### 6. Create Random Users in Active Directory  
+- Use **PowerShell as Administrator** to run a script generating random users in the OU.  
+- Alternatively, manually create users.  
+
+ 
+![Generate Users](https://imgur.com/H9Y3SMB.png)  
+
+---
+
+### 7. Test User Login  
+- Select a random user from the OU.  
+- Log into Client-1 using the user credentials.  
+
+ 
+![Login Test](https://i.imgur.com/aQ1W5gf.jpeg)  
+
+---
+
+By following these steps, you can deploy and configure Active Directory within Azure Virtual Machines, ensuring seamless communication and user management across your network.
