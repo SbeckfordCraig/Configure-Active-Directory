@@ -5,41 +5,50 @@
 <h1>Configure Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines setting up and configureing Active Directory within Azure Virtual Machines.<br />
 
-<h2>Environments and Technologies</h2>
+<h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
-<h2>Operating Systems</h2>
+<h2>Operating Systems Images used for Virtual Machines</h2>
 
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration Steps Overview</h2>
 
 - Creating a Resource Group with Server and Client
 - Configuring TCP Proctols in Windows Firewall
 - Installing Active Directory and User Groups
 - Connecting Virtual Machine to Cloud Server and Adding Users
+
 <br />
 <h3 
 <br />
 <p>
 
-### 1. Create the Domain Controller VM  
+
+
+<h1>1. Setting up the Domain Controller<h1/>
+  <h3>Create a new Resource GroupVirtual Network (VNet) <h3/>
+
+![image](https://github.com/user-attachments/assets/da812a42-04a8-4668-8345-bd34db8847c1)
+
+If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top
+
+Virtual Network (VNet).
 - **Virtual Machine Name**: `DC-01`  
 - **Operating System**: Windows Server 2022  
 - **Network**: Create a new Resource Group and Virtual Network (VNet).  
 - **Configuration**: Use Azure's default settings for the VM size (e.g., 2 VCPUs).
 
-<h2>need placement imagees here</h2>
 
 ---
 
 ### 2. Create the Client VM  
-- **Virtual Machine Name**: `Client-1`  
+- **Virtual Machine Name**: `Client-01`  
 - **Operating System**: Windows 10  
 - **Network**: Use the **same Resource Group and VNet** created in the previous step.
 
