@@ -27,19 +27,28 @@ This tutorial outlines setting up and configureing Active Directory within Azure
 <br />
 <h3 
 <br />
-<p>
 
-
-<h1>1. Setting up the Domain Controller<h1/>
-  <h3>To start things off we are first going to create a new Resource Group to have a place to store our VMs (virtual machines)<h3/>
+  <h1>1. Setting up the Domain Controller</h1>
+  
+To start things off we are first going to create a new Resource Group to have a place to store our VMs (virtual machines
 
 ![image](https://github.com/user-attachments/assets/da812a42-04a8-4668-8345-bd34db8847c1)
 
-  <p> NOTE: If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top<p/>
+  
+NOTE: If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top<p/>
 
-Next wwwe are going to ccreate our own Virtual Network. 
-Ususally the VN (virtual network) is ccreated automaticcally ncce you ccreate the VM (virtaul macchine).
-In this Instance wwe are going tot ccreate a Virtaul netwwork on our own and cconnecct the VMs.
+Next we are going to create our own Virtual Network. 
+Ususally the VN (virtual network) is created automatically you create the VM (virtaul machine).
+In this Instance wwe are going to create a Vitrual network on our own
+  First in the search bar on the top of the screen type in Virtual Networks, once you click on the name you should be direct to a screen that looks like this (see below)
+
+<p />
+  
+  ![image](https://github.com/user-attachments/assets/c487f925-52e4-46a6-a6c0-84030e83549c)
+Click Create virtual network
+
+![image](https://github.com/user-attachments/assets/5fe90d2f-e044-4684-bd7a-4c5472112749)
+
 
 - **Virtual Machine Name**: `DC-01`  
 - **Operating System**: Windows Server 2022  
