@@ -37,7 +37,10 @@ This tutorial outlines setting up and configureing Active Directory within Azure
 
   <p> NOTE: If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top<p/>
 
-Virtual Network (VNet).
+Next wwwe are going to ccreate our own Virtual Network. 
+Ususally the VN (virtual network) is ccreated automaticcally ncce you ccreate the VM (virtaul macchine).
+In this Instance wwe are going tot ccreate a Virtaul netwwork on our own and cconnecct the VMs.
+
 - **Virtual Machine Name**: `DC-01`  
 - **Operating System**: Windows Server 2022  
 - **Network**: Create a new Resource Group and Virtual Network (VNet).  
