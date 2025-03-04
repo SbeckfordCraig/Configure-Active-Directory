@@ -30,13 +30,12 @@ This tutorial outlines setting up and configureing Active Directory within Azure
 <p>
 
 
-
 <h1>1. Setting up the Domain Controller<h1/>
-  <h3>Create a new Resource GroupVirtual Network (VNet) <h3/>
+  <h3>To start things off we are first going to create a new Resource Group to have a place to store our VMs (virtual machines)<h3/>
 
 ![image](https://github.com/user-attachments/assets/da812a42-04a8-4668-8345-bd34db8847c1)
 
-If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top
+  <p> NOTE: If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top<p/>
 
 Virtual Network (VNet).
 - **Virtual Machine Name**: `DC-01`  
