@@ -45,9 +45,22 @@ In this Instance wwe are going to create a Vitrual network on our own
 <p />
   
   ![image](https://github.com/user-attachments/assets/c487f925-52e4-46a6-a6c0-84030e83549c)
-Click Create virtual network
+
+Click Create virtual network. 
+
+Then on the next screen since we made a Resource Group Ahead of time the resource group and the region should automaticcally be set up. You should always make sure all the details are the same or they will not work and will have to start over.
 
 ![image](https://github.com/user-attachments/assets/5fe90d2f-e044-4684-bd7a-4c5472112749)
+
+once the info is correct click on Review+Create then, Azure wwill runn through a validation process and then after it is finish you click Create.
+Wait a few secconds so Azure ccan run through through the deployment procccess
+once everything is commplete you should see a green ccheck and "Your deploymment is commplete" whicch means everything for your Vnet is correct and is up and running (see below)
+![image](https://github.com/user-attachments/assets/48715eb4-de93-4316-bc33-a4bc15f8d823)
+
+
+Next we will make he Domain Controller and call it 'DC-01'
+
+I
 
 
 - **Virtual Machine Name**: `DC-01`  
