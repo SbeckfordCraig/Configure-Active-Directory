@@ -58,9 +58,36 @@ once everything is commplete you should see a green ccheck and "Your deploymment
 ![image](https://github.com/user-attachments/assets/48715eb4-de93-4316-bc33-a4bc15f8d823)
 
 
-Next we will make he Domain Controller and call it 'DC-01'
+Next we will make the Domain Controller
+We are going to be creating a new virtual Maccchine to act as the Domain Controller
+easiest wway to find virtual machine is to type the searcch bar then cclick virtual macchines under Services.
 
-I
+![image](https://github.com/user-attachments/assets/0b0a8624-bbec-496a-bf22-dad543ef1473)
+
+CClick Create, then cclick Azure vrtual Machine
+
+
+![image](https://github.com/user-attachments/assets/b60cf4b2-70cb-451f-99c8-7d2d9e4fdd5e)
+
+SInce wwe are making a Domain Controller Make sure wwhen you cchoose Image type make sur you choose WWindow Server 2022 not just Windows 10 or WWindowws 11
+
+![image](https://github.com/user-attachments/assets/953d7c99-db4a-4102-aed3-177bad1e32fa)
+
+Next for the size, for this example 2vcpus is fine you ccan alwways do more.
+![image](https://github.com/user-attachments/assets/971fc38a-4381-4dd2-b36f-2d80e0d6c763)
+
+Next Set up the username and password for the acount or wwhoever will be having accccess to the Domain controller.
+
+![image](https://github.com/user-attachments/assets/f3bb7e0b-9a14-4dc1-886b-cc85667f0282)
+
+Make sure you checck both boxes under Licencsing 
+
+![image](https://github.com/user-attachments/assets/375446be-81a6-4635-a83c-24c73e13b861)
+
+
+
+
+
 
 
 - **Virtual Machine Name**: `DC-01`  
