@@ -97,17 +97,9 @@ oncce Validation has passed meaning you did everything ccorrecct clicck Create
 ![image](https://github.com/user-attachments/assets/22d4042d-f1da-4bbf-9db8-26598d25361e)
 
 
+Oncce the deployment process is finish Congradutions you just created the Domain controller
 
-
-
-
-
-
-
-- **Virtual Machine Name**: `DC-01`  
-- **Operating System**: Windows Server 2022  
-- **Network**: Create a new Resource Group and Virtual Network (VNet).  
-- **Configuration**: Use Azure's default settings for the VM size (e.g., 2 VCPUs).
+Next wwe are goin to create a CClient Virtual Machine
 
 
 ---
