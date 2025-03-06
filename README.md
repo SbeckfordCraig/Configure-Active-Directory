@@ -69,11 +69,12 @@ CClick Create, then cclick Azure vrtual Machine
 
 ![image](https://github.com/user-attachments/assets/b60cf4b2-70cb-451f-99c8-7d2d9e4fdd5e)
 
-SInce wwe are making a Domain Controller Make sure wwhen you cchoose Image type make sur you choose WWindow Server 2022 not just Windows 10 or WWindowws 11
+Since wwe are making a Domain Controller Make sure wwhen you cchoose Image type make sure you choose WWindow Server 2022 not just Windows 10 or Windows 11
 
 ![image](https://github.com/user-attachments/assets/953d7c99-db4a-4102-aed3-177bad1e32fa)
 
-Next for the size, for this example 2vcpus is fine you ccan alwways do more.
+Next for the size, for this example 2vcpus is fine you ccan alwways give it more. Just know the cost do change
+
 ![image](https://github.com/user-attachments/assets/971fc38a-4381-4dd2-b36f-2d80e0d6c763)
 
 Next Set up the username and password for the acount or wwhoever will be having accccess to the Domain controller.
@@ -83,6 +84,19 @@ Next Set up the username and password for the acount or wwhoever will be having 
 Make sure you checck both boxes under Licencsing 
 
 ![image](https://github.com/user-attachments/assets/375446be-81a6-4635-a83c-24c73e13b861)
+
+Click Next for Disk
+Click Next for Networking
+
+Once you are on netwworking click the down arroww where it says Virtual Network and CChoose the Netwwork that we already ccreated and leave evrything else the way it is then click Review + ccreate
+
+![image](https://github.com/user-attachments/assets/4e94c2ff-3a5c-42e2-a822-4ae23540b627)
+
+oncce Validation has passed meaning you did everything ccorrecct clicck Create
+
+![image](https://github.com/user-attachments/assets/22d4042d-f1da-4bbf-9db8-26598d25361e)
+
+
 
 
 
