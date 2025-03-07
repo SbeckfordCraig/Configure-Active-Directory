@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
@@ -92,7 +92,7 @@ Once you are on netwworking click the down arroww where it says Virtual Network 
 
 ![image](https://github.com/user-attachments/assets/4e94c2ff-3a5c-42e2-a822-4ae23540b627)
 
-oncce Validation has passed meaning you did everything ccorrecct clicck Create
+Once validation has passed meaning you did everything ccorrecct clicck Create
 
 ![image](https://github.com/user-attachments/assets/22d4042d-f1da-4bbf-9db8-26598d25361e)
 
@@ -100,6 +100,21 @@ oncce Validation has passed meaning you did everything ccorrecct clicck Create
 Oncce the deployment process is finish Congradutions you just created the Domain controller
 
 Next wwe are goin to create a CClient Virtual Machine
+
+wwhen Creating the Client Virtual Machine is pretty mucch the same proccess as cccreating the Domain controller VM the differencce is under the image ccategory cchoose wwindowwws 10 or 11 wwwhicch ever you deccide
+also we will name this Virtual Macchine CLient-01
+
+![image](https://github.com/user-attachments/assets/c17fccda-d828-45dc-991c-3447f3cb6627)
+
+make sure you set up a username and passoword
+
+![image](https://github.com/user-attachments/assets/99bdb7e2-0c14-4e2d-a25f-21e206b24d1b)
+
+
+Same as before cclicck Next:Disk
+CClicck Next:Netwworking
+
+
 
 
 ---
