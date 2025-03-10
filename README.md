@@ -117,6 +117,11 @@ under the networking tab make sure change Virtual Netwwwork virtual netwwwork th
 
 ![image](https://github.com/user-attachments/assets/b321a83d-c686-4715-8227-ed39628e68b6)
 
+Leave everytelse as is and CClick Review + Create and for wwfor thhhe reviewww and validation proccess
+oncce theh validation passed cclicck ccreate and wwwait for the deployment procces to give you the green check and say deployment is completed
+Noww wwwe are going to go bacckto thhe VM thhat is hyour DOmian ccler and cconfigure some extras 
+From wwwhhereever your at cclicck thhhe wwwork hhome ususally found on thhe top left
+
 
 
 
