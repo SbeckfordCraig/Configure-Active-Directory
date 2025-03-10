@@ -111,20 +111,18 @@ make sure you set up a username and passoword
 ![image](https://github.com/user-attachments/assets/99bdb7e2-0c14-4e2d-a25f-21e206b24d1b)
 
 
-Same as before cclicck Next:Disk
-CClicck Next:Netwworking
+Same as before clicck Next:Disk
+Click Next:Netwworking
+under the networking tab make sure change Virtual Netwwwork virtual netwwwork thhat wwwe ccreaated
+
+![image](https://github.com/user-attachments/assets/b321a83d-c686-4715-8227-ed39628e68b6)
 
 
 
 
----
-
-### 2. Create the Client VM  
-- **Virtual Machine Name**: `Client-01`  
-- **Operating System**: Windows 10  
-- **Network**: Use the **same Resource Group and VNet** created in the previous step.
 
 ---
+
 
 ### 3. Configure Static Private IP for the Domain Controller  
 - Navigate to the **Networking tab** of the Domain Controller VM in Azure.  
