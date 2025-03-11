@@ -122,10 +122,19 @@ oncce theh validation passed cclicck ccreate and wwwait for the deployment procc
 Noww wwwe are going to go bacckto thhe VM thhat is hyour DOmian ccler and cconfigure some extras 
 From wwwhhereever your at cclicck thhhe wwwork hhome ususally found on thhe top left
 
+cclicck on your domain controller virrtual Under tresourses
 
+![image](https://github.com/user-attachments/assets/1dda3a80-bb76-4571-9126-2a60d61f7586)
 
+![image](https://github.com/user-attachments/assets/cccd27a6-1ff2-41ac-b2e8-8d20e7eed8f3)
 
+![image](https://github.com/user-attachments/assets/273c9d0b-2589-4adc-ae54-e2aa39fdf9b5)
 
+![image](https://github.com/user-attachments/assets/1fd2ce28-342d-49ad-829d-700abc89141f)
+
+![image](https://github.com/user-attachments/assets/59aac0de-6cf0-490e-a7d6-413684feebc7)
+
+once you change from dynamic to static make sure you click save at the bottom
 ---
 
 
