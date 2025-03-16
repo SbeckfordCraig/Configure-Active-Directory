@@ -137,31 +137,20 @@ cclicck on your domain controller virrtual Under tresourses
 
 Oncce you ccchange ip settings from dynamic to static make sure you click save
 
+now for just this demonstration and practice we are going to turn off the firewall in the Domain Controller
+First we need to find the public IP address for the domain Controller. Click on the Domain controller Virtual machine which should lead you to. your VM informaion page. there you should be able to find the public IP address for you Domain Controller. you can hover the up address and it should give you an option to copy it or you can highlight to ip address and copy.
 
-By following these steps, you will have a functioning Domain Controller (`DC-1`) and Client VM (`Client-1`) ready for further Active Directory configuration in a controlled Azure environment.
+
+![image](https://github.com/user-attachments/assets/8797685e-2606-4db0-a883-8bb64f737aa2)
+
+Next go to your remote desktop and enter in the public ip address for the domain controller
+
+
 
 
 </p>
 <p>
-# Deploying Active Directory in Azure Virtual Machines  
 
-This guide outlines the steps to deploy a Domain Controller (Windows Server 2022) and a Client (Windows 10) within Microsoft Azure, configure their network settings, and set up Active Directory.
-
----
-
-## Deployment Overview  
-
-### Virtual Machines Setup  
-- **Domain Controller (DC-01):**  
-  - Operating System: Windows Server 2022  
-  - Configuration: 2 VCPUs  
-  - Network: Assign a static IP in network settings.  
-
-- **Client (Client-01):**  
-  - Operating System: Windows 10  
-  - Network: Use the same resource group and VNet as DC-01.  
-
----
 
 ## Configuration Steps  
 
@@ -173,7 +162,7 @@ This guide outlines the steps to deploy a Domain Controller (Windows Server 2022
 ---
 
 ### 2. Install and Configure Active Directory  
-- Install Active Directory Domain Services on DC-1.  
+- Install Active Directory Domain Services on DC-01.  
 - Create a new forest and domain.  
 - Restart the machine (automatically triggered by the installation).  
 
