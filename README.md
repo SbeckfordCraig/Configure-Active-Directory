@@ -134,13 +134,9 @@ cclicck on your domain controller virrtual Under tresourses
 
 ![image](https://github.com/user-attachments/assets/59aac0de-6cf0-490e-a7d6-413684feebc7)
 
-once you change from dynamic to static make sure you click save at the bottom
----
 
+Oncce you ccchange ip settings from dynamic to static make sure you click save
 
-### 3. Configure Static Private IP for the Domain Controller  
-- Navigate to the **Networking tab** of the Domain Controller VM in Azure.  
-- Set the **Network Interface Card (NIC)** private IP address to **Static** to ensure consistent connectivity.  
 
 By following these steps, you will have a functioning Domain Controller (`DC-1`) and Client VM (`Client-1`) ready for further Active Directory configuration in a controlled Azure environment.
 
