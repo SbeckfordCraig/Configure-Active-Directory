@@ -101,7 +101,7 @@ Oncce the deployment process is finish Congradutions you just created the Domain
 
 Next wwe are goin to create a CClient Virtual Machine
 
-wwhen Creating the Client Virtual Machine is pretty mucch the same proccess as cccreating the Domain controller VM the differencce is under the image ccategory cchoose wwindowwws 10 or 11 wwwhicch ever you deccide
+wwhen Creating the Client Virtual Machine is pretty mucch the same process as cccreating the Domain controller VM the differencce is under the image ccategory cchoose wwindowwws 10 or 11 wwwhicch ever you deccide
 also we will name this Virtual Macchine CLient-01
 
 ![image](https://github.com/user-attachments/assets/c17fccda-d828-45dc-991c-3447f3cb6627)
