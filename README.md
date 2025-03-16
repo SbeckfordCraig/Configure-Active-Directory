@@ -138,6 +138,7 @@ cclicck on your domain controller virrtual Under tresourses
 Oncce you ccchange ip settings from dynamic to static make sure you click save
 
 now for just this demonstration and practice we are going to turn off the firewall in the Domain Controller
+
 First we need to find the public IP address for the domain Controller. Click on the Domain controller Virtual machine which should lead you to. your VM informaion page. there you should be able to find the public IP address for you Domain Controller. you can hover the up address and it should give you an option to copy it or you can highlight to ip address and copy.
 
 
@@ -145,80 +146,62 @@ First we need to find the public IP address for the domain Controller. Click on 
 
 Next go to your remote desktop and enter in the public ip address for the domain controller
 
+![image](https://github.com/user-attachments/assets/adf9e008-3ebb-41f8-adb7-0a6d4058c1dc)
+
+Next enter in the username and past word you create for the Domain Controller
+
+once you have logged in you should be lead to the Service Manager Dashboard 
+
+![image](https://github.com/user-attachments/assets/0e355655-8c3f-4673-82fc-ea8d448a8c96)
+
+NOTE: if you didn't everything correct the Service Manager Dashboard is what is supposed to show if not yo used the wrong Image and will have to start over and delete you Domain Controller and create a new Virtual Machine
+
+Right Click on the start menu and click run
+
+![image](https://github.com/user-attachments/assets/776ee3a1-8211-463e-834d-733f4c88ed7c)
 
 
 
+type wf.msc and this command will lead you to the firewall
+
+![image](https://github.com/user-attachments/assets/3821dd24-28a2-410c-b005-d90094d0e615)
+
+click where it says windows defender firewall properties
+
+![image](https://github.com/user-attachments/assets/07609f73-e981-4e2e-bfc6-efd5ac6bf9cc)
+
+now under domain profile, public profile, and private profile turn each of those firewalls off once you have them off click apply and OK.
+
+<h2>PLEASE REMEMBER YOU WILL NEVER TURN FIREWALL OFF FOR ANY REASON WHEN YOU WORKING FOR A COMPANY.<h2/>
+
+next we are going to change the client VM to point to or connect to DC-01 private up address
+
+ok first you need to find the DC-01 private up address
+
+![image](https://github.com/user-attachments/assets/2cc8fb41-1955-40ae-b8bf-4dcef235c3bd)
+ copy the private up address of the DC-01
+
+ then go to Client-01 VM
+ 
+ ![image](https://github.com/user-attachments/assets/6b20a8f7-2853-4a89-b434-957804f8c42d)
+
+ On the side bar click Networking and the Network settings
+
+ ![image](https://github.com/user-attachments/assets/090e052c-7345-4663-899f-6f747551c204)
+click on you NIC
+then on the left hand side click DNS Servers
+
+![image](https://github.com/user-attachments/assets/d111eb74-d325-41bc-b2a5-23cd0fdd3b64)
+
+make sure you click custom the paste the private up address of the domain controller
+after that is finished click save
+
+'
 </p>
 <p>
 
 
-## Configuration Steps  
 
-### 1. Configure Windows Firewall for ICMP Protocols  
-- Log into DC-01 via **Remote Desktop**.  
-- Open **Windows Defender Firewall with Advanced Security**.  
-- Enable **ICMPv4 TCP Protocols** by modifying the "Protocols" section.
-
----
-
-### 2. Install and Configure Active Directory  
-- Install Active Directory Domain Services on DC-01.  
-- Create a new forest and domain.  
-- Restart the machine (automatically triggered by the installation).  
-
-  
-![Add Forest](https://imgur.com/39rEkhJ.png)  
-
-- Log back into DC-1 using the new domain and username.  
-- Set up **Organizational Units (OUs)** and create users.  
-
----
-
-### 3. Assign Administrator Properties to a User  
-- Select a user in Active Directory.  
-- Right-click → Properties → Member tab.  
-- Add the user to the **Domain Admins** group by typing "domain admins" and clicking **Check Names**.  
-
-  
-![Add User Role](https://imgur.com/kzGVLjr.png)  
-
----
-
-### 4. Update DNS Settings for Client-1  
-- Change the DNS settings of Client-1 to the **private IP address of DC-1** in Azure.  
-- Verify connectivity between Client-1 and DC-1.  
-- Confirm that Client-1 is listed in the "Computers" container of Active Directory.  
-
- 
-![Change DNS Settings](https://imgur.com/G8LMrqB.png)  
-![Verify Connectivity](https://imgur.com/lQCfRDf.png)  
-
----
-
-### 5. Enable Domain Users for Remote Desktop Access  
-- Log into Client-1 with the admin user.  
-- Allow **Domain Users** access to remote desktop via **System Properties**.  
-
- 
-![Allow Users Access](https://imgur.com/TmSDbUU.png)  
-
----
-
-### 6. Create Random Users in Active Directory  
-- Use **PowerShell as Administrator** to run a script generating random users in the OU.  
-- Alternatively, manually create users.  
-
- 
-![Generate Users](https://imgur.com/H9Y3SMB.png)  
-
----
-
-### 7. Test User Login  
-- Select a random user from the OU.  
-- Log into Client-1 using the user credentials.  
-
- 
-![Login Test](https://i.imgur.com/aQ1W5gf.jpeg)  
 
 ---
 
