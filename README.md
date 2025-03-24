@@ -172,11 +172,11 @@ click where it says windows defender firewall properties
 
 now under domain profile, public profile, and private profile turn each of those firewalls off once you have them off click apply and OK.
 
-<h2>PLEASE REMEMBER YOU WILL NEVER TURN FIREWALL OFF FOR ANY REASON WHEN YOU WORKING FOR A COMPANY.<h2/>
+PLEASE REMEMBER YOU WILL NEVER TURN FIREWALL OFF FOR ANY REASON WHEN YOU WORKING FOR A COMPANY
 
-next we are going to change the client VM to point to or connect to DC-01 private up address
+Next we are going to to make some changes so that Client-01 can communicate with DC-01
 
-ok first you need to find the DC-01 private up address
+so make this happen we first need to find the DC-01 private up address
 
 ![image](https://github.com/user-attachments/assets/2cc8fb41-1955-40ae-b8bf-4dcef235c3bd)
  copy the private up address of the DC-01
@@ -185,18 +185,44 @@ ok first you need to find the DC-01 private up address
  
  ![image](https://github.com/user-attachments/assets/6b20a8f7-2853-4a89-b434-957804f8c42d)
 
- On the side bar click Networking and the Network settings
+ On the side bar click Networking and then click Network settings
 
  ![image](https://github.com/user-attachments/assets/090e052c-7345-4663-899f-6f747551c204)
+
 click on you NIC
 then on the left hand side click DNS Servers
 
 ![image](https://github.com/user-attachments/assets/d111eb74-d325-41bc-b2a5-23cd0fdd3b64)
 
 make sure you click custom the paste the private up address of the domain controller
-after that is finished click save
+after that is finished click save. Now we are going to test and make sure that 'Client-01' is communicating with 'DC-01'
 
-'
+First we need to remotely connect to Client-01' using the public ip address 
+
+![image](https://github.com/user-attachments/assets/b4d23af0-2cae-41e5-bcfe-1164bf42f325)
+
+then log in using the username and password you created for the Client-01 VM
+![image](https://github.com/user-attachments/assets/d294da7a-01b2-4964-9d84-5778ec6f27be)
+
+
+just for the lesson just click all your choices to no when a blue screen for a setup is showed 
+
+Once you are at the home screen in the search bar below type in powershell and then click Windows Powershell
+type in ping plus then the private IP address of DC-01 if you have done everything correctly powersheel should show that packets that were send have been recived
+(see Below)
+
+![image](https://github.com/user-attachments/assets/af6e7804-e92a-4e56-9d71-8263a4c80dc2)
+
+using the command ipconfig /all you can also fing the DNS which should be set up as DC-01
+ private ip address
+
+ ![image](https://github.com/user-attachments/assets/e0bd8e85-44a7-46a8-b193-83bdccb03c57)
+
+
+
+
+
+
 </p>
 <p>
 
