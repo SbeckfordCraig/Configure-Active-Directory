@@ -219,15 +219,15 @@ using the command ipconfig /all you can also fing the DNS which should be set up
  ![image](https://github.com/user-attachments/assets/e0bd8e85-44a7-46a8-b193-83bdccb03c57)
 
 
-
-
-
-
 </p>
+
+<h1>
+Connecting to the DNS and creating Users 
+</ h1>
 <p>
-
-
-
+ First you have to Remote Desktop into DC-01
+ once you are logged into DC-01 
+</p>
 
 ---
 
