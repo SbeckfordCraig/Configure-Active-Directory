@@ -50,7 +50,8 @@ Click Create Virtual Network.
 
 Then on the next screen since we made a Resource Group Ahead of time the resource group and the region should automaticcally be set up. You should always make sure all the details are the same or they will not work and will have to start over.
 
-![image](https://github.com/user-attachments/assets/5fe90d2f-e044-4684-bd7a-4c5472112749)
+<img width="601" height="358" alt="image" src="https://github.com/user-attachments/assets/128e08d4-58f5-4ac5-acf1-78eab7f5445b" />
+
 
 once the info is correct click on Review+Create then, Azure wwill runn through a validation process and then after it is finish you click Create.
 Wait a few secconds so Azure ccan run through through the deployment procccess
