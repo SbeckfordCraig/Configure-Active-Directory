@@ -38,15 +38,15 @@ To start things off we are first going to create a new Resource Group to have a 
 NOTE: If you do not see Resource Groups on the Azure dashboard type in Resource Group in the search bar at the top<p/>
 
 Next we are going to create our own Virtual Network. 
-Ususally the VN (virtual network) is created automatically you create the VM (virtaul machine).
-In this Instance wwe are going to create a Vitrual network on our own
+Ususally the VN (virtual network) is created automatically you create the VM (virtual machine).
+In this Instance we are going to create a Vitrual network on our own
   First in the search bar on the top of the screen type in Virtual Networks, once you click on the name you should be direct to a screen that looks like this (see below)
 
 <p />
   
   ![image](https://github.com/user-attachments/assets/c487f925-52e4-46a6-a6c0-84030e83549c)
 
-Click Create virtual network. 
+Click Create Virtual Network. 
 
 Then on the next screen since we made a Resource Group Ahead of time the resource group and the region should automaticcally be set up. You should always make sure all the details are the same or they will not work and will have to start over.
 
